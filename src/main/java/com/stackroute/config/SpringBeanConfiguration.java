@@ -10,20 +10,15 @@ import org.springframework.context.annotation.Configuration;
 public class SpringBeanConfiguration {
 
     @Bean(name = "movie1")
-    public Movie getMovie1(){
-        Movie movie=new Movie();
-        movie.setMovieId(101);
-        movie.setMovieName("Kalank");
-        return movie;
+    public Movie getMovie(){
+
+        return new Movie(101,"Kalank");
     }
 
     @Bean(name = "actor")
     public Actor getActor(){
-        Actor actor=new Actor();
-        actor.setName("Varun");
-        actor.setGender("Male");
-        actor.setAge(30);
-        return actor;
+
+        return new Actor("Varun","Male",30);
     }
 
 }
