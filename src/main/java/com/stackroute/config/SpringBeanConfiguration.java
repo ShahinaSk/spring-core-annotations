@@ -9,22 +9,21 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class SpringBeanConfiguration {
 
-    @Bean(name = "movie1")
+    @Bean(name = "movie")
     public Movie getMovie1(){
-
-        return new Movie(101,"Kalank");
-    }
-
-    @Bean(name = "movie2")
-    public Movie getMovie2(){
-
-        return new Movie(102,"SOTY");
+        Movie movie=new Movie();
+        movie.setMovieId(101);
+        movie.setMovieName("Kalank");
+        return movie;
     }
 
     @Bean(name = "actor")
     public Actor getActor(){
-
-        return new Actor("Varun","Male",30);
+        Actor actor=new Actor();
+        actor.setName("Varun");
+        actor.setGender("Male");
+        actor.setAge(30);
+        return actor;
     }
 
 }

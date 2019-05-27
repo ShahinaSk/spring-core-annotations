@@ -12,13 +12,25 @@ public class Movie {
     @Autowired
     private Actor actor;
 
-    public Movie(){
-
+    public int getMovieId() {
+        return movieId;
     }
 
-    public Movie(int movieId, String movieName) {
+    public void setMovieId(int movieId) {
         this.movieId = movieId;
+    }
+
+    public String getMovieName() {
+        return movieName;
+    }
+
+    public void setMovieName(String movieName) {
         this.movieName = movieName;
+    }
+
+
+    public Movie(){
+
     }
 
     @Override
