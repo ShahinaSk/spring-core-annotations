@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6d23281-5bc4-43e8-af09-b0579702082f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/config/SpringBeanConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/config/SpringBeanConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Actor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Movie.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/config/SpringBeanConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state>
+              <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,21 +39,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/domain/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            <state relative-caret-position="356">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#1511#1512#0" expanded="true" />
+                <element signature="e#1565#1566#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,9 +96,9 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Actor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/config/SpringBeanConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Movie.java" />
       </list>
     </option>
   </component>
@@ -252,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558950394175</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tested autowire byType">
+      <created>1558950742325</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558950742325</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -272,7 +272,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3298351" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298351" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3388306" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3388306" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -290,7 +290,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tested constructor based injection" />
     <MESSAGE value="tested scope of bean" />
-    <option name="LAST_COMMIT_MESSAGE" value="tested scope of bean" />
+    <MESSAGE value="tested autowire byType" />
+    <option name="LAST_COMMIT_MESSAGE" value="tested autowire byType" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/domain/Main.java">
@@ -324,24 +325,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/domain/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/domain/Actor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -365,10 +348,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/config/SpringBeanConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state>
+          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/domain/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#1511#1512#0" expanded="true" />
+            <element signature="e#1565#1566#0" expanded="true" />
           </folding>
         </state>
       </provider>
